@@ -495,6 +495,10 @@ img {
     padding-left: 16px;
 }
 
+.subscribe-input::placeholder {
+    color: #FFFFFF;
+}
+
 .subscribe-icon {
     fill: #f4f4fd;
     margin-left: 16px;
@@ -605,6 +609,10 @@ img {
     margin-bottom: 8px;
 }
 
+.comment {
+    margin-bottom: 16px;
+}
+
 .form-label {
     font-size: 12px;
     line-height: 1.17;
@@ -669,6 +677,12 @@ img {
 
 .checkbox-wrapper {
     margin-bottom: 24px;
+}
+
+.contacts-form input[type="checkbox"]:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 
 .form-checkbox {
