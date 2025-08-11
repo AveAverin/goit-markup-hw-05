@@ -679,10 +679,15 @@ img {
     margin-bottom: 24px;
 }
 
-.contacts-form input[type="checkbox"]:checked {
-    background-color: #404bbf;
+:root {
+    --checkbox-bg: #404bbf;
+    --checkbox-icon-color: #f4f4fd;
+}
+
+.contacts-form input[type="checkbox"]:checked+.form-checkbox .custom-checkbox {
+    background-color: var(--checkbox-bg);
     border: none;
-    fill: #f4f4fd;
+    fill: var(--checkbox-icon-color);
 }
 
 .form-checkbox {
